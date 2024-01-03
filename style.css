@@ -1,0 +1,383 @@
+body{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;   
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0 2px;
+    width:100%;
+    height:60px;
+    background-color:blue;
+    /* box-shadow: 10px 5px 4px 2px rgba(45, 35, 22, 0.3); */
+}
+.title-and-image{
+   width:30%;
+   display:flex;
+   flex-direction: row;
+   padding-left: 50px;
+}
+.title-and-image h1{
+    padding-top: 15px;
+}
+.imagess{
+    height:55px;
+    width:100px;
+    padding:1px 0 ;
+}
+.nav-list{
+   width:70%;
+}
+.nav-list ul{
+    padding-left:280px;
+    display:flex;
+    flex-direction: row; 
+    list-style-type:none;
+    padding-top: 4px;
+
+}
+.nav-list ul li{
+    padding-left:50px ;
+    
+}
+.nav-list ul li a{
+    font-family:sans-serif;
+    color:white;
+    text-decoration: none; 
+
+}
+.nav-list ul li a:hover{
+    color:red;
+    cursor:auto;
+}
+/* .homepage{
+    
+} */
+.home-section{
+    background-image:url("https://homes4india.com/wp-content/uploads/2023/01/image-39.png");
+    background-size: cover;
+    height:400px;
+    width:97.8%;
+    padding-top: 180px;
+    padding-left: 30px;
+    line-height: 80%;
+}
+.home-section h2{
+
+    color:red;
+}
+.home-section h1{
+    color:chocolate;
+    font-size: 70px;
+}
+.home-section h1 span{
+    color:red;
+}
+.home-section h3{
+    color:ghostwhite;
+}
+.button-design{
+    padding-left: 150px;
+    padding-top:-1px;
+    height:100px;
+    width:120px
+}
+.button-design a{
+    height:40px;
+    width:100px;
+    border:1px solid black;
+    background-color:deepskyblue;
+    border-radius: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+    text-decoration: none;
+}
+.button-design a:hover{
+    background-color: cornsilk;;
+    color:black
+}
+/* ------------------------------services------------------------------- */
+#services{
+    display:flex;
+    justify-content: center;
+  
+}
+.services-section{
+    width:100%;
+    height:auto;
+    background-color:whitesmoke;
+    color:black;
+    display:flex;
+    flex-direction: column;
+}
+.service-section-part1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.service-section-part1 h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.service-section-part1 span{
+    color:orangered;
+}
+.service-section-part1 h3{
+     margin-top:-30px;
+}
+.service-section-part1-borderline{
+    width:300px;
+    border-bottom: 2px solid blue; 
+}
+.service-section-part2{
+    margin: 20px 130px;
+    padding:px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+}
+.cell{
+    height:300px;
+    background-color:white;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius:10px; 
+    width:300px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.service-img{
+    width:300px;
+    height:170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.service-section-part2 .cell .services-details{
+    
+    padding-left: 7px;
+    padding-bottom: 10px;
+    line-height: 110%;  
+}
+/* ----------------------about us------------------------ */
+.aboutus{
+    width:100%;
+    height:500px;
+    background:rgba(108, 88, 88, 0.7) url("https://zolostays.com/blog/wp-content/uploads/2019/09/Raheja-MIndspace-compressor-1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.aboutus{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top:70px;
+}
+.aboutus .aboutus-heading{
+    color:orangered;
+    font-size: 30px;
+
+}
+.aboutus .aboutus-heading span{
+    color:burlywood;
+   
+}
+.aboutus .aboutus-border{
+    margin-top: -30px;;
+    width:200px;
+    border-bottom: 3px solid rgba(148, 172, 25, 0.864); 
+    margin-left: auto ;
+    margin-right: auto;
+
+}
+.aboutus .aboutus-para{
+    color:white;
+}
+.mybranches{
+    height:auto;
+    width:100%;
+    color:black;
+}
+.mybranches .headingg{
+    padding:10px;
+    font-weight: bold;
+    font-size: 30px;
+    color:black;
+}
+.mybranches .headingg span{
+    color:orangered;
+}
+.mybranches .allbranches{
+    margin: 20px 100px;
+    padding:px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+}
+.mybranches .allbranches .branch{
+    height:150px;
+    background-color:white;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius:10px; 
+    width:250px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left:3px;
+}
+.mybranches .allbranches .branch span{
+    color:blue;
+}
+.mybranches .allbranches .branch h1{
+    padding-left:5px;
+}
+.mybranches .allbranches .branch .adress-of-branches{
+    margin-top:-45px
+}
+/*-------------------------- contactus----------------------- */
+#contactus{
+    width:100%;
+    height:auto;
+    background-color: cornsilk;
+    margin-top:30px;
+    padding-top: 20px;
+}
+#contactus h1{
+    margin-left:auto ;
+    margin-right:auto;
+    text-align: center;
+    color:orangered;
+    font-size: 30px;
+    font-weight: bold;
+}
+#contactus h1 span{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#contactus .contact-with-socialmedia{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height:auto;
+    margin-top:40px;
+    
+}
+#contactus .contact-with-socialmedia .term{
+    display:flex;
+    flex-direction: column;
+    
+}
+#contactus .contact-with-socialmedia .collections{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#contactus .contact-with-socialmedia .collections .logosize{
+    height:70px;
+    width:70px;
+    border:1px solid;
+    border-radius: 10px;
+    background-color:orangered;
+
+}
+#contactus .contact-with-socialmedia .collections span{
+    color:white;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;  
+}
+#contactus .contact-with-socialmedia .collections .textsize{
+    margin-top: 20px;
+    font-size:30px;
+    color:black;
+}
+.user-contact-with-company{
+    height:600px;
+    width:96.5%;
+    border:1px solid black;
+    margin:40px 20px;
+    display:flex;
+    flex-direction: row;
+
+}
+.user-contact-with-company .company-image{
+    width:50%;
+}
+.user-contact-with-company .company-image img{
+    width:609px;
+    height:600px
+}
+.user-contact-with-company .user-detais{
+    width:50%;
+    border:1px solid green;
+    background-color: white;
+}
+.user-contact-with-company .user-detais .adjust-form{
+    padding-top:50px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.lablename{
+    font-size:20px;
+}
+.inputtag{
+    width:330px;
+    height:30px;
+}
+.textarea{
+    width:330px;
+    height:200px;
+}
+#btns{
+    width:60px;
+    height:30px;
+    background-color: orangered;
+    color:white;
+}
+.lastfooter{
+    width:800px;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto; 
+}
+.copyright{
+    width:100%;
+    height:100px;
+}
+.copyright h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     padding-left:450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
